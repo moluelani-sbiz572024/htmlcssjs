@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*-----------------------------------------------------
+ | 全体のスタイル定義
+ |
+ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13pt;
+}
+
+/* ヘッダー部 */
+header {
+  position: fixed;
+  top: 0;
+  min-width: 100vw;
+  max-height: 140px;
+  z-index: 999;
+  background-color: slategray;
+  
+}
+/* ヘッダー内テキスト */
+header h1 {
+  padding: 0 20px;
+  color: whitesmoke;
+}
+
+/* ボディ部 */
+main {
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 0;
+  width: 100vw;
+}
+/* ボディ部・コンテナー */
+#container {
+  display: block;
+  position: relative;
+  height: 100vh;
+  margin: 10px;
+}
+
+/* フッター部 */
+footer {
+  position: fixed;
+  bottom: 0;
+  min-width: 100vw;
+  max-height: 40px;
+  z-index: 999;
+  background-color: #eee;
+}
+/* フッター：コピーライト */
+footer p {
+  padding: 0 20px;
+  font-size: x-small;
+  color: dimgray;
+}
