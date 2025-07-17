@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>イベント処理</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="left-column">
+      <h2>イベント処理</h2>
+      <div class="block">
+        <button id="output-btn">文字列の出力</button>
+      </div>
+      
+      <div class="block">
+        <button id="add-btn">リストの追加</button>
+        <ul id="parent-list"></ul>
+      </div>
+    
+      <div class="block">
+        <form name="textForm">
+          <input type="text" name="textBox">
+        </form>
+        <button id="count-btn">文字数のカウント</button>
+      </div>
+    
+      <div class="block">
+        <form name="areaForm">
+          <input type="radio" name="area" value="tokyo">東京都
+          <input type="radio" name="area" value="aichi">愛知県
+          <input type="radio" name="area" value="osaka">大阪府
+        </form>
+        <button id="area-btn">値の取得</button>
+      </div>
+    
+      <div class="block">
+        <form name="osForm">
+          <label>利用したことのあるOSを選択して下さい</label><br>
+          <input type="checkbox" name="os" value="windows">Windows
+          <input type="checkbox" name="os" value="macos">macOS
+          <input type="checkbox" name="os" value="linux">Linux
+          <input type="checkbox" name="os" value="ios">iOS
+          <input type="checkbox" name="os" value="android">Android
+        </form>
+        <button id="os-btn">値の取得</button>
+      </div>
+    </div>
+
+    <div id="right-column">
+      <h2>イベント処理実行結果</h2>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="js/event.js"></script>
+</body>
+</html>
