@@ -1,0 +1,77 @@
+#first-paragraph {
+  /* width: 200px; */
+  /* padding: 100px; */
+  background-color: yellow;
+}
+#second-paragraph {
+  display: none;
+  /* height: 100px; */
+  /* margin: 100px; */
+  background-color: orange;
+}
+#third-paragraph {
+  /* width: 50%;
+  height: 200px; */
+  /* padding: 50px;
+  margin: 50px; */
+  background-color: pink;
+}
+
+p {
+  background-color: yellow;
+}
+#first-span {
+  /* width: 500px;
+  height: 500px; */
+  /* margin: 20px; */
+  /* padding: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: lightblue;
+}
+#second-span {
+  /* margin: 30px; */
+  /* padding: 30px; */
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: lightgreen;
+}
+#third-span {
+  /* margin: 40px; */
+  /* padding: 40px; */
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: lightgray;
+}
+
+#first-div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightblue;
+}
+#second-div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightgreen;
+}
+#third-div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  margin: 30px;
+  background-color: lightgray;
+}
+#fourth-div {
+  width: 100px;
+  height: 100px;
+  padding: 40px;
+  margin: 40px;
+  background-color: yellow;
+}

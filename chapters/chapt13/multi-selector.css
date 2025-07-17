@@ -1,0 +1,7 @@
+p, #first-heading, .text-red {
+  color: red;
+}
+
+#parent > p {
+  color: red;
+}

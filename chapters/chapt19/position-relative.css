@@ -1,0 +1,38 @@
+.parent {
+  height: 2000px;
+  background-color: lightcyan;
+  /* position: relative;
+  height: 400px;
+  background-color: lightcyan; */
+}
+.child {
+  position: fixed;
+  bottom: 0;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+.background {
+  height: 2000px;
+  background-color: honeydew;
+}
+#first-div {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+#second-div {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+#third-div {
+  position: absolute;
+  top: 50px;
+  /* left: 50px; */
+  right: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
