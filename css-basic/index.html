@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML/CSSの基礎</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts : Noto Sans JP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Original Style -->
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>TERAKOYA PORTAL</h1>
+    <nav>
+      <a href="./">HOME</a>
+      <a href="#">FRONTEND LAYER</a>
+      <a href="#">PROCESSING LAYER</a>
+      <a href="#">BACKEND LAYER</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="box1">
+      <section class="frontend_section">
+        <h2><a name="fontend">FRONTEND LAYER</a></h2>
+        <div class="frontend_content">
+        HTMLとCSS、JavaScriptで構成される利用者と最も隣接するシステム境界であり、システムの「窓口」ともなるレイヤーです。
+        所謂「GUI」（単にUIと呼ぶ場合もある）であり、利用者にとってシステムの利便性が最も現れる場所でもあります。よって、
+        利便性の良し悪しで「システム評価」に直結しやすく、操作性の確保は非常に重要な要件となっています。
+        </div>
+      </section>
+      <section class="backend_section">
+        <h2><a name="backend">BACKEND LAYER</a></h2>
+        <div class="backend_content">
+        システムのデータ領域でありシステムが利用する、または利用者がGUI経由で入力したデータを格納し管理する場所でもあります。
+        所謂「インテグレーション」レイヤーと呼ばれる場所で主にデータベースシステムで構成されます。データベースとしては、
+        RDBMS(Relational Database Management System)が配置されることが多いですが、最近ではNoSQLと呼ばれるRDBMSとは異なる
+        データ格納領域を配置するケースもあります。代表的なものとして、MongoDBがあります。RDBMSとしては、PostgreSQLやMySQLが
+        よく利用されます。
+        </div>
+      </section>
+    </article>
+    <article class="box2">
+      <section class="processing_section">
+        <h2><a name="processing">PROCESSING LAYER</a></h2>
+        <div class="processing_content">
+        FRONTENDから入力されたデータは、リクエスト情報としてサーバー領域に送信されます。リクエスト情報を受け取りシステムとして
+        必要な処理を実行して結果をレスポンス情報として加工した上でリクエスト元へ返却送信します。この一連の流れをWebシステムでは
+        HTTPベースでリクエスト・レスポンス処理と呼びます。この流れの中には、他のシステム呼び出しやサブシステムなどの利用のほか、
+        BACKENDへの連携によってデータ領域からデータ取得したりデータ領域への保管なども行います。システム仕様の中心的存在でもあります。
+        <p>FRONTEND/PROCESSING/BACKENDの関係性を示す図を以下に示します。</p>
+        </div>
+      </section>
+      <section class="image_section">
+        <div class="image_content">
+          <a href="./images/layer3.jpg" target="_blank"><img src="./images/layer3.jpg"></a>
+        </div>
+        </div>
+      </section>
+    </article>
+    <article class="box3">
+      <section class="contact_section">
+        <h2><a name="contact">CONTACT</a></h2>
+        ご意見、ご要望は次のフォームを利用してお寄せ下さい。
+        <form class="contact_form">
+          <table>
+            <tr>
+              <th>お名前</th><td><input type="text" id="username" placeholder="お名前"></td>
+            </tr>
+            <tr>
+              <th>メールアドレス</th><td><input type="text" placeholder="xxxxx@xxxxx"></td>
+            </tr>
+            <tr>
+              <th>お問い合わせ内容</th><td><textarea rows="10" cols="100"></textarea></td>
+            </tr>
+          </table>
+          <button type="button">送　信</button>
+        </form>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2025, SAMURAI TERAKOYA.
+    </p>
+  </footer>
+</body>
+</html>
